@@ -1,0 +1,66 @@
+.header{
+    background-color: #0E0C38;
+}
+.nav_wrapper {
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 265px;
+    margin-top: 10px;
+}
+.nav_wrapper li a {
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 60px;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+  
+    
+    
+}
+img::after
+{content:'hammad';}
+.nav_wrapper li a:hover::after{
+    content: '';
+    background: #FF0513;
+    height: 117px;
+    width: 123px;
+    position: absolute;
+    /* left: 0; */
+    top: -70px;
+    z-index: -1;
+    
+    
+}
+.nav_wrapper li a:hover::before{
+    content: '';
+    background-color: red;
+    height: 2px;
+    width: 123px;
+    position: absolute;
+    bottom: -25px;
+}
+
+.header_nav{
+    display: flex;
+}
+.header_nav button {
+    background-color: #0E0C38;
+    color: #fff;
+    outline: none;
+    font-size: 22px;
+    padding: 22px 42px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}

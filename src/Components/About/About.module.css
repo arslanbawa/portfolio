@@ -1,0 +1,137 @@
+.about{
+    background-color: #040221;
+}
+.about_wrapper{
+    display: flex;
+    padding-top: 182px;
+    justify-content: space-between;
+}
+.about_text_wrapper {
+    color: #ffffff;
+    padding-top: 110px;
+    width: 50%;
+}
+.about_heading{
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 5    0px;
+    margin-bottom: 129px;
+    
+}
+.about_heading:after {
+    content: '';
+    width: 320px;
+    height: 2px;
+    top: 50px;
+    right: 0;
+    background-color: red;
+    position: absolute;
+}
+.about_para {
+    font-size: 24px;
+    margin-bottom: 70px;
+    max-width: 846px;
+}
+.about_img{
+    border: 74px solid #0E0C38;
+}
+
+
+
+.banner_btns{
+    background-color: #0E0C38;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 30px 83px;
+    border-radius: 60px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.banner_btns:hover{
+    background-color: red;
+    border: none;
+}
+
+.about_btns{
+    background-color: #0E0C38;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 36px 43px;
+    border-radius: 60px;
+    font-size: 30px;
+}
+.about_btns:first-child{
+    margin-right: 32px;
+}
+.about_btns:hover{
+    background-color: red;
+    border: none;
+}
+
+.portfolio_heading_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 141px;
+}
+
+.portfolio_heading {
+    color: #ffffffff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.portfolio_heading::after {
+    content: '';
+    height: 2px;
+    width: 345px;
+    right: -380px;
+    bottom: 23px;
+    background-color: red;
+    position: absolute;
+}
+.about_links_wrapper {
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+.about_links {
+    margin-right: 30px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 130px;
+}
+/* .about_links:active{
+    color: red;
+} */
+.about_links:hover{
+    color: red;
+}
+h5{
+    color: #ffffff;
+}
+button{
+    background-color:#0E0C38 ;
+    border: none;
+}
+.links_img_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links_img{
+    margin-bottom: 108px;
+    
+}
+.images{
+    position: relative;
+}
+/* .dng_img::after {
+    content: '';
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+} */
